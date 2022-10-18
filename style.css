@@ -131,3 +131,10 @@ p {
 #bottom-right-section li {
   padding-bottom: 0.4rem;
 }
+
+@media (max-width: 650px){ /*Con una pantalla que tenga como máximo 650px de ancho...*/
+  #card, #bottom-left-section, #bottom-right-section {
+    width: 100%;
+    height: 100%;
+  }
+}
